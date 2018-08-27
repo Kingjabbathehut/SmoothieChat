@@ -2,15 +2,6 @@
  <html>
  <head>
   <body>
-   <div id="header">
-    <div class="container">
-    <a href="index.html">SMOOTHIE</a>
-     <ul>
-      <li><a href="help.html">Help</a></li>
-      <li><a href="End.html">LEAVE</a></li>
-     </ul>
-   </div>
-  </div>
    <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width">
@@ -45,6 +36,18 @@
  </head>
  <body>
    <div class="copy">Send your URL to a friend to start a video call</div>
+  <p align="right">{{SwitchView}} | <a href="{{SignOutLink}}">Sign Out</a></p>
+<center>
+<table border="0" cellpadding="15">
+<tr>
+<td><img src="[YOUR COMPANY LOGO URL]"></img></td>
+ <td><img src="{{Profile.ImageSrc}}" class="img-circle" style="width:60px;height:60px;"></img></td>
+ <td>Welcome, <strong>{{Profile.FirstName}} {{Profile.LastName}}</strong>
+<br>Your username is: {{Profile.UserName}}
+<br><a href="{{MyProfileLink}}">Edit Profile</a></td>
+ </tr>
+ </table>
+</center>
     <!-- AddToAny BEGIN -->
 <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
 <a <p><span style="font-size: 10pt;"><strong>Add a friend</strong></span></p>
